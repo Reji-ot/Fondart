@@ -1,0 +1,45 @@
+/* footer */
+.footer {
+  width: 100%;
+}
+
+.footer .row {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  place-items: center;
+}
+
+.footer-section {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: black;
+  padding: 10px;
+}
+
+.sociallinks {
+  margin-top: 3%;
+  margin-left: 1%;
+}
+
+.sociallinks:hover {
+  margin-top: 3%;
+  margin-left: 1%;
+  color: pink;
+}
+
+.footer-credit {
+  color: black;
+}
+
+.icon {
+  color: pink;
+}
+
+@media only screen and (max-width: 768px) {
+  .media {
+    display: flex;
+  }
+}
+
+/* footer ends */

@@ -1,0 +1,35 @@
+/*Story page*/
+
+// #Story {
+//   position: relative;
+// }
+
+#Story .container {
+  position: absolute;
+  top: 120%;
+  left: 7%;
+  z-index: 3;
+  background: linear-gradient(to left, pink, white);
+
+  img {
+    width: 300px;
+    height: 300px;
+    margin: 5%;
+    border-radius: 5px;
+  }
+}
+
+#Style .container {
+  margin: 45% 0 0 7%;
+  z-index: 1;
+  background: linear-gradient(to right, pink, white);
+
+  img {
+    width: 300px;
+    height: 300px;
+    margin: 5%;
+    border-radius: 5px;
+  }
+}
+
+/*Story page*/

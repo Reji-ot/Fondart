@@ -1,0 +1,29 @@
+/*   Special Price Section Template */
+
+#products {
+  .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .btn-outline-info {
+    border: 1px solid $color-gold !important;
+    color: $color-gold !important;
+  }
+
+  .is-checked {
+    background: $color-gold !important;
+    color: $color-white !important;
+    border: 1px solid $color-gold !important;
+  }
+
+  .color-red {
+    color: red;
+  }
+
+  img {
+    width: 180px; /* You can set the dimensions to whatever you want */
+    height: 180px;
+    object-fit: cover;
+  }
+}

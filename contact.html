@@ -40,7 +40,7 @@
                 <a href="#" class="px-3 border-right text-dark">Wishlist</a>
             </div>
         </div> -->
-    
+    <!-- !Start Header-->
 
     <!-- Primary Navigation -->
         <nav class="navbar navbar-light fixed navbar-expand-md">
@@ -65,7 +65,7 @@
               <a  href="/Customize" class="nav-link font-size-20 color-gold" disabled>CUSTOMIZE</a>
             </li>
             <li class="nav-item">
-              <a href="/Contact" class="nav-link font-size-20 color-gold" >CONTACT</a>
+              <a href="/contact.html" class="nav-link font-size-20 color-gold" >CONTACT</a>
             </li>
         </ul>
                 <form action="#" class="font-size-14 font-rale">
@@ -78,101 +78,50 @@
         </div>
         
         </nav>
-        <!-- !Primary Navigation -->
-    </header>
-    <!-- !Start Header-->
+        </header>
+    <!-- !Primary Navigation -->
 
     <!-- Start Mainsite -->
         <main>
-            <hr>
-            
-            <!-- Shopping cart section  -->
-            <section id="cart" class="py-3">
-                <div class="container-fluid w-75">
-                    <h5 class="font-baloo font-size-20">Shopping Cart</h5>
+            <!-- Contact section -->
 
-                    <!--  shopping cart items   -->
-                        <div class="row">
-                            <div class="col-sm-9">
-                                <!-- cart item -->
-                                    <div class="row border-top py-3 mt-3">
-                                        <div class="col-sm-2">
-                                            <img src="./assets/images/Blackforest_pudding.jpg" style="height: 120px;" alt="cart1" class="img-fluid">
-                                        </div>
-                                        <div class="col-sm-8">
-                                            <h5 class="font-Trajan font-size-20">Blackforest Pudding</h5>
-                                            <small>Puddings</small>
-                                           
-
-                                            <!-- product qty -->
-                                                <div class="qty d-flex pt-2">
-                                                    <div class="d-flex font-rale w-25">
-                                                        <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
-                                                        <input type="text" data-id="pro1" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
-                                                        <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
-                                                    </div>
-                                                    <button type="submit" class="btn font-Trajan text-danger px-3 border-right">Delete</button>
-                                                    <button type="submit" class="btn font-Trajan text-danger">Save for Later</button>
-                                                </div>
-                                            <!-- !product qty -->
-
-                                        </div>
-
-                                        <div class="col-sm-2 text-right">
-                                            <div class="font-size-20 text-danger ">
-                                                INR &nbsp;<span class="product_price">500</span>
-                                            </div>
-                                        </div>
+            <section id="contact-us">
+                <div class="container">
+                      <div class="section-title text-center">
+                                <h3 class="mb-5 font-Trajan font-size-40">CONTACT US</h3>
+                            </div>
+        
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <form action="/" class="my-3">
+                                <div class="row my-3">
+                                    <div class="col-sm-6 ">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
                                     </div>
-                                <!-- !cart item -->
-                                 <!-- cart item -->
-                                 <div class="row border-top py-3 mt-3">
-                                    <div class="col-sm-2">
-                                        <img src="./assets/images/Lemon_citrus_cupcake.jpg" style="height: 120px;" alt="cart1" class="img-fluid">
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <h5 class="font-Trajan font-size-20">Lemon Citrus Cupcake</h5>
-                                        <small>Cupcakes</small>
-                                       
-
-                                        <!-- product qty -->
-                                            <div class="qty d-flex pt-2">
-                                                <div class="d-flex font-rale w-25">
-                                                    <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
-                                                    <input type="text" data-id="pro1" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
-                                                    <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
-                                                </div>
-                                                <button type="submit" class="btn font-Trajan text-danger px-3 border-right">Delete</button>
-                                                <button type="submit" class="btn font-Trajan text-danger">Save for Later</button>
-                                            </div>
-                                        <!-- !product qty -->
-
-                                    </div>
-
-                                    <div class="col-sm-2 text-right">
-                                        <div class="font-size-20 text-danger ">
-                                            INR &nbsp;<span class="product_price">500</span>
-                                        </div>
+                                    <div class="col-sm-6">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" />
                                     </div>
                                 </div>
-                            <!-- !cart item -->
-                            </div>
-                            <!-- subtotal section-->
-                            <div class="col-sm-3">
-                                <div class="sub-total border text-center mt-2">
-                                    <h6 class="font-size-12 font-rale text-success py-3"><i class="fas fa-check"></i> Your order is eligible for FREE Delivery.</h6>
-                                    <div class="border-top py-4">
-                                        <h5 class="font-baloo font-size-20">Subtotal (2 item):&nbsp; <span class="text-danger">INR &nbsp;<span class="text-danger" id="deal-price">1000.00</span> </span> </h5>
-                                        <button type="submit" class="btn btn-warning mt-3">Proceed to Buy</button>
-                                    </div>
+                                <div class="row px-2 my-3">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
                                 </div>
-                            </div>
-                            <!-- !subtotal section-->
+                                <div class="row px-2 my-3">
+                                    <textarea class="form-control" name="message" placeholder="Type Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn color-gold-bg color-white">Send Message</button>
+                            </form>
                         </div>
-                    <!--  !shopping cart items   -->
+
+                        <div class="col-lg-5">
+                            <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.562257850175!2d80.95404241488181!3d26.853871883152944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd6ff6b5513d%3A0x109a29d586e0745a!2sFondArt%20Bakehouse!5e0!3m2!1sen!2sin!4v1622829430528!5m2!1sen!2sin" width="100%" height="380px" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-        <!-- !Shopping cart section  -->
+
+            <!-- !contact section -->
     
 
 

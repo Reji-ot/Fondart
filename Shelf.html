@@ -32,7 +32,7 @@
 <body>
     
      <!-- Start Header-->
-        <header id="header">
+     <header id="header">
         <!-- <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
             <p class="font-rale font-size-20 text-black-50 m-0"></p>
             <div class="font-rale font-size-14">
@@ -40,10 +40,12 @@
                 <a href="#" class="px-3 border-right text-dark">Wishlist</a>
             </div>
         </div> -->
+    
+
     <!-- Primary Navigation -->
-        <nav class="navbar navbar-light fixed navbar-expand-md">
+        <nav class="navbar navbar-light fixed-top navbar-expand-md">
         <div class="container-fluid">
-          <img src="./assets/logo/FAB_logo.png" alt="brand-logo" class='logo'/>
+          <img src="./assets/logo/FAB_logo.png" alt="brand-logo" class='logo ms-2'/>
           <a href="./index.html" class="navbar-brand navbar-left ms-3 font-Carentro mt-3"><h1>FondArt Bakehouse</h1></a>
         
           <!-- Toggler/collapsibe Button -->
@@ -51,34 +53,36 @@
               <span class="navbar-toggler-icon"></span>
             </Button>
           
-            <div class="collapse navbar-collapse m-auto" id="collapsibleNavbar">
-                <ul class="navbar-nav nav-pills nav-fill ms-auto me-5">
-                  <li class="nav-item">
-                    <a  href="./index.html" class="nav-link font-size-20 color-gold">HOME</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a href="./story.html" class="nav-link font-size-20 color-gold">STORY</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="./Shelf.html" class="nav-link font-size-20 color-gold">SHELF</a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a href="./contact.html" class="nav-link font-size-20 color-gold" >CONTACT</a>
-                  </li>
-              </ul>
-                      <form action="#" class="font-size-14 font-rale">
-                          <a href="./cart.html" class="py-2 rounded-pill color-pink-bg">
-                              <span class="font-size-16 px-2 text-dark"><i class="fas fa-shopping-cart"></i></span>
-                              <span class="px-3 py-2 rounded-pill text-white bg-dark">0</span>
-                          </a>
-                      </form>
-            </div>
+          <div class="collapse navbar-collapse navbar-toggleable-md m-auto" id="collapsibleNavbar">
+          <ul class="navbar-nav nav-pills nav-fill me-2 ms-auto font-Trajan">
+            <li class="nav-item">
+              <a  href="./index.html" class="nav-link font-size-20 color-gold">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="./story.html" class="nav-link font-size-20 color-gold">STORY</a>
+            </li>
+            <li class="nav-item">
+              <a href="./Shelf.html" class="nav-link font-size-20 color-gold">SHELF</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link font-size-20 color-gold" >CONTACT</a>
+            </li>
+            <li>
+                <form action="#" class="font-size-14 font-rale">
+                    <a href="./Shelf.html" class="py-2 rounded-pill color-pink-bg">
+                        <span class="font-size-30 px-1 text-dark"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-2 py-2 rounded-pill text-white bg-dark font-Trajan">Shop Now</span>
+                    </a>
+                </form>
+            </li>
+        </ul>
+                
+          </div>
         </div>
         
         </nav>
-    <!-- !Primary Navigation -->
-        </header>
+    <!-- !Primary Navigation -->    
+    </header>
     <!-- !Start Header-->
 
     <!-- Start Mainsite -->
@@ -86,9 +90,10 @@
             <hr>
         <!-- Special Price -->
         <section id="products">
-            <div class="container">
-                <h4 class="font-Trajan font-size-20 color-gold">OUR SHELF</h4>
-                <div id="filters" class="button-group text-end font-baloo font-size-16">
+            
+                <h2 class="font-Trajan font-size-40 color-gold my-5 pt-5 text-center">OUR SHELF</h2>
+               <div class="text-center container justify-content-center mx-auto w-100"> 
+                   <div id="filters" class="button-group text-end font-baloo font-size-16 text-center">
                     <button class="btn btn-outline-info is-checked" data-filter="*">All ITEMS</button>
                     <button class="btn btn-outline-info" data-filter=".Cake">CAKES</button>
                     <button class="btn btn-outline-info" data-filter=".Bread">Breads</button>
@@ -97,14 +102,15 @@
                     <button class="btn btn-outline-info" data-filter=".Pastry">PASTRIES</button>
                     <button class="btn btn-outline-info" data-filter=".Macaroons">MACAROONS</button>
                 </div>
-
                 <div class="grid">
                     <div class="grid-item Cake border">
                         <div class="item py-2" style="width: 200px;">
                             <div class="product font-rale">
-                                <a href="#"><img src="./assets/images/Mango_cheesecake.jpg" alt="product1" class="img-responsive"></a>
+                                <a href="#">
+                                    <img src="./assets/images/Mango_cheesecake.jpg" alt="product1" class="img-responsive">
+                                </a>
                                 <div class="text-center">
-                                    <h6>Mango Cheese Cake (1 Kg)</h6>
+                                    <h6>Mango Cheese <br> Cake (1 Kg)</h6>
                                     <div class="rating text-danger font-size-12">
                                         <span><i class="fas fa-dot-circle"> Non Veg</i></span>
                                     </div>
@@ -121,7 +127,7 @@
                             <div class="product font-rale">
                                 <a href="#"><img src="./assets/images/Plain_bread.jpg" alt="product1" class=""></a>
                                 <div class="text-center">
-                                    <h6>Plain Bread</h6>
+                                    <h6>Plain <br> Bread</h6>
                                     <div class="rating text-success font-size-12">
                                         <span><i class="fas fa-dot-circle"> Veg</i></span>
                                     </div>
@@ -138,7 +144,7 @@
                             <div class="product font-rale">
                                 <a href="#"><img src="./assets/images/Multigrain_bread.jpg" alt="product1" class=""></a>
                                 <div class="text-center">
-                                    <h6>Multigrain Bread</h6>
+                                    <h6>Multigrain <br> Bread</h6>
                                     <div class="rating text-success font-size-12">
                                         <span><i class="fas fa-dot-circle"> Veg</i></span>
                                     </div>
@@ -155,7 +161,7 @@
                             <div class="product font-rale">
                                 <a href="#"><img src="./assets/images/Tiramisu_pudding.jpg" alt="product1" class="img-fluid"></a>
                                 <div class="text-center">
-                                    <h6>Tiramisu Pudding</h6>
+                                    <h6>Tiramisu<br> Pudding</h6>
                                     <div class="rating text-danger font-size-12">
                                         <span><i class="fas fa-dot-circle"> Non Veg</i></span>
                                     </div>
@@ -172,7 +178,7 @@
                             <div class="product font-rale">
                                 <a href="#"><img src="./assets/images/Blackforest_pudding.jpg" alt="product1" class="img-fluid"></a>
                                 <div class="text-center">
-                                    <h6>Blackforest Pudding</h6>
+                                    <h6>Blackforest <br> Pudding</h6>
                                     <div class="rating text-success font-size-12">
                                         <span><i class="fas fa-dot-circle"> Veg</i></span>
                                     </div>
@@ -189,7 +195,7 @@
                             <div class="product font-rale">
                                 <a href="#"><img src="./assets/images/Red_velvet_pudding.jpg" alt="product1" class="img-fluid"></a>
                                 <div class="text-center">
-                                    <h6>Red Velvet Pudding</h6>
+                                    <h6>Red Velvet <br> Pudding</h6>
                                     <div class="rating text-success font-size-12">
                                         <span><i class="fas fa-dot-circle"> Veg</i></span>
                                     </div>
@@ -206,7 +212,7 @@
                             <div class="product font-rale">
                                 <a href="#"><img src="./assets/images/Hazelnut_bread.jpg" alt="product1" class="img-fluid"></a>
                                 <div class="text-center">
-                                    <h6>Hazelnut Bread</h6>
+                                    <h6>Hazelnut <br> Bread</h6>
                                     <div class="rating text-danger font-size-12">
                                         <span><i class="fas fa-dot-circle"> Non Veg</i></span>
                                     </div>
@@ -224,7 +230,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Burger_bun.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Burger Buns (pack of 4)</h6>
+                                        <h6>Burger Buns <br> (pack of 4)</h6>
                                         <div class="rating text-danger font-size-12">
                                             <span><i class="fas fa-dot-circle">Veg</i></span>
                                         </div>
@@ -241,9 +247,9 @@
                         <div class="item py-2" style="width: 200px;">
                             <div class="product font-rale">
                                 <div class="d-flex flex-column">
-                                    <a href="#"><img src="/assets/images/Paav_bun.jpg" class="img-fluid" alt="pro1"></a>
+                                    <a href="#"><img src="./assets/images/Paav_bun.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Paav buns(Pack of 6)</h6>
+                                        <h6>Paav buns <br> (Pack of 6)</h6>
                                         <div class="rating text-success font-size-12">
                                             <span><i class="fas fa-dot-circle"> Veg</i></span>
                                         </div>
@@ -262,7 +268,26 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Baugette.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Baugette</h6>
+                                        <h6>Baugette <br> (Plain)</h6>
+                                        <div class="rating text-success font-size-12">
+                                            <span><i class="fas fa-dot-circle"> Veg</i></span>
+                                        </div>
+                                        <div class="price py-2">
+                                            <span>INR 100.00</span>
+                                        </div>
+                                        <a href="https://fondartbakehouse.petpooja.com/menu" type="button" class="btn btn-warning font-size-12">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item Bread border">
+                        <div class="item py-2" style="width: 200px;">
+                            <div class="product font-rale">
+                                <div class="d-flex flex-column">
+                                    <a href="#"><img src="./assets/images/Baugette_herbs.jpg" class="img-fluid" alt="pro1"></a>
+                                    <div class="text-center">
+                                        <h6>Baugette <br> (Herbs)</h6>
                                         <div class="rating text-success font-size-12">
                                             <span><i class="fas fa-dot-circle"> Veg</i></span>
                                         </div>
@@ -281,7 +306,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Butter_croissant.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Butter Croissant</h6>
+                                        <h6>Butter <br> Croissant</h6>
                                         <div class="rating text-success font-size-12">
                                             <span><i class="fas fa-dot-circle"> Veg</i></span>
                                         </div>
@@ -300,7 +325,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Almond_croissant.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Almond Croissant</h6>
+                                        <h6>Almond <br> Croissant</h6>
                                         <div class="rating text-success font-size-12">
                                             <span><i class="fas fa-dot-circle"> Veg</i></span>
                                         </div>
@@ -319,7 +344,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Chocolate_Donut.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Chocolate Donut</h6>
+                                        <h6>Chocolate <br> Donut</h6>
                                         <div class="rating text-success font-size-12">
                                             <span><i class="fas fa-dot-circle"> Veg</i></span>
                                         </div>
@@ -338,7 +363,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Belgian_chocolate_truffle_pastry.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Belgian Chocolate Truffle Pastry</h6>
+                                        <h6>Belgian Chocolate <br> Truffle Pastry</h6>
                                         <div class="rating text-success font-size-12">
                                             <span><i class="fas fa-dot-circle"> Veg</i></span>
                                         </div>
@@ -357,7 +382,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Brownie_pastry.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Brownie Pastry</h6>
+                                        <h6>Brownie <br> Pastry</h6>
                                         <div class="rating text-danger font-size-12">
                                             <span><i class="fas fa-dot-circle"> Non Veg</i></span>
                                         </div>
@@ -376,7 +401,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Mango_tart_pastry.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Seasonal Fruit Tart</h6>
+                                        <h6>Seasonal Fruit <br> Tart</h6>
                                         <div class="rating text-success font-size-12">
                                             <span><i class="fas fa-dot-circle"> Veg</i></span>
                                         </div>
@@ -395,7 +420,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Opera_pastry.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Opera Pastry</h6>
+                                        <h6>Opera <br> Pastry</h6>
                                         <div class="rating text-danger font-size-12">
                                             <span><i class="fas fa-dot-circle"> Non Veg</i></span>
                                         </div>
@@ -414,7 +439,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Raspberry_vanilla_macaroons.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Raspberry Vanilla Macaroons</h6>
+                                        <h6>Raspberry Vanilla <br> Macaroons</h6>
                                         <div class="rating text-danger font-size-12">
                                             <span><i class="fas fa-dot-circle"> Non Veg</i></span>
                                         </div>
@@ -433,7 +458,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Raspberry_vanilla_macaroons2.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Limoncello special Macaroons</h6>
+                                        <h6>Limoncello special <br> Macaroons</h6>
                                         <div class="rating text-danger font-size-12">
                                             <span><i class="fas fa-dot-circle"> Non Veg</i></span>
                                         </div>
@@ -452,7 +477,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Raspberry_vanilla_macaroons1.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Belgium Chocolate Macaroons</h6>
+                                        <h6>Belgium Chocolate <br> Macaroons</h6>
                                         <div class="rating text-danger font-size-12">
                                             <span><i class="fas fa-dot-circle"> Non Veg</i></span>
                                         </div>
@@ -471,7 +496,7 @@
                                 <div class="d-flex flex-column">
                                     <a href="#"><img src="./assets/images/Raspberry_vanilla_macaroons3.jpg" class="img-fluid" alt="pro1"></a>
                                     <div class="text-center">
-                                        <h6>Salted Caramel Macaroons</h6>
+                                        <h6>Salted Caramel <br> Macaroons</h6>
                                         <div class="rating text-danger font-size-12">
                                             <span><i class="fas fa-dot-circle"> Non Veg</i></span>
                                         </div>
@@ -485,6 +510,9 @@
                         </div>
                     </div>
                 </div>
+                    
+                
+                
             </div>
         </section>
         <!-- !Special Price -->
@@ -498,61 +526,93 @@
     <hr class="my-5">
 
     <!-- Footer section -->
-        <footer class="container-fluid footer">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="dbox w-100 text-center">
-                            <div class="icon d-flex align-items-center justify-content-center" >
-                                <i class="fa fa-map-marker fa-2x"></i>
-                            </div>
-                            <div class="text">
-                                <p><strong style="color: #b8860b;" >Address:</strong><br /><span style= "color: grey;">Jopling road, near shalimar grand appartment, Lucknow, Uttar Pradesh 226010 </span></p>
-                            </div>
-                        </div>
+    <footer class="container-fluid footer">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center" >
+                        <i class="fa fa-map-marker fa-2x"></i>
                     </div>
-                    <div class="col-md-3">
-                        <div class="dbox w-100 text-center">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <i class="fa fa-phone fa-2x"></i>
-                            </div>
-                            <div class="text">
-                                <p><strong style= "color: #b8860b;" >Phone:</strong><br /><a class="text-decoration-none" href="#tel://00918076468576" style= "color: grey;" }}>+ 91 807 646 8576 </a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="dbox w-100 text-center">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <i class="fa fa-paper-plane fa-2x"></i>
-                            </div>
-                            <div class="text">
-                                <p><strong style="color: #b8860b;">Email:</strong> <br /><a href="mailto:info@fondartbakehouse.com" style="color: grey;">info@fondartbakehouse.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="dbox w-100 text-center">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <i class="fa fa-globe fa-2x"></i>
-                            </div>
-                            <div class="text">
-                                <p><strong style="color: #b8860b;">Follow us on:</strong> <br />
-                                    <a href="https://www.facebook.com/fondartbakehouse/"><span style="color: grey;" ><i class="fab fa-facebook-square fa-2x mx-2" aria-hidden="true"></i></span></a>
-                                    <a href="https://www.instagram.com/fondartbakehouse/"><span style="color: grey;"><i class="fab fa-instagram-square fa-2x mx-2" aria-hidden="true"></i></span></a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div class="row">
-                    <div class="col-12 ">
-                        <p class="footer-credit">
-                            <a href="/" class="text-dark text-decoration-none" >© 2021 All right reserved:</a>
-                            <span ><a href="/" class="text-dark text-decoration-none"> FondArt BakeHouse</a></span>
+                    <div class="text">
+                        <p><strong style="color: #b8860b;" >Address:</strong>
                         </p>
                     </div>
                 </div>
-        </footer>
+            </div>
+            <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fa fa-phone fa-2x"></i>
+                    </div>
+                    <div class="text">
+                        <p><strong style= "color: #b8860b;" >Phone:</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fa fa-paper-plane fa-2x"></i>
+                    </div>
+                    <div class="text">
+                        <p><strong style="color: #b8860b;">Email:</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fa fa-globe fa-2x"></i>
+                    </div>
+                    <div class="text">
+                        <p><strong style="color: #b8860b;">Follow us on:</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                    <div class="text">
+                        <p><span style= "color: grey;">Jopling road, near shalimar grand appartment, Lucknow, Uttar Pradesh 226010 </span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                    <div class="text">
+                        <p><a class="text-decoration-none" href="#tel://00918076468576" style= "color: grey;" }}>+ 91 807 646 8576 </a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                    <div class="text">
+                        <p><a href="mailto:info@fondartbakehouse.com" style="color: grey;">info@fondartbakehouse.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                   <div class="text">
+                        <p>
+                            <a href="https://www.facebook.com/fondartbakehouse/"><span style="color: grey;" ><i class="fab fa-facebook-square fa-2x mx-2" aria-hidden="true"></i></span></a>
+                            <a href="https://www.instagram.com/fondartbakehouse/"><span style="color: grey;"><i class="fab fa-instagram-square fa-2x mx-2" aria-hidden="true"></i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-12 ">
+                <p class="footer-credit">
+                    <a href="/" class="text-dark text-decoration-none" >© 2021 All right reserved:</a>
+                    <span ><a href="/" class="text-dark text-decoration-none"> FondArt BakeHouse</a></span>
+                </p>
+            </div>
+        </div>
+    </footer>
     <!-- !Footer section -->
 
 

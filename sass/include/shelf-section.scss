@@ -16,7 +16,7 @@
   padding: 0;
   margin: 10px auto;
   background-color: #fff;
-  box-shadow: 10px 10px 20px #888888;
+  box-shadow: 10px 10px 5px #888888;
 }
 .el-wrapper .info-inner {
   background-color: #9b7a16;
@@ -153,13 +153,13 @@
 }
 
 .info-inner .p-name {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Trajan', sans-serif;
   font-size: 18px;
   color: white;
 }
 
 .info-inner .p-company {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Edwardian', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   color: pink;
@@ -195,7 +195,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Carentro', sans-serif;
   font-weight: 700;
 }
 
@@ -252,7 +252,7 @@
 .cart .add-to-cart .txt {
   font-size: 12px;
   color: $color-gold;
-  letter-spacing: 0.045em;
+  letter-spacing: 0.05rem;
   text-transform: uppercase;
   white-space: nowrap;
 }

@@ -1,12 +1,12 @@
 /*Story page*/
 
-// #Story {
-//   position: relative;
-// }
+#banner-story img {
+  width: 100vw;
+}
 
 #Story .container {
   position: absolute;
-  top: 120%;
+  top: 90%;
   left: 7%;
   z-index: 3;
   background: linear-gradient(to left, pink, white);
@@ -16,6 +16,21 @@
     height: 300px;
     margin: 5%;
     border-radius: 5px;
+    float: left;
+  }
+
+  h2 {
+    margin-top: 3rem;
+  }
+
+  p {
+    height: fit-content !important ;
+    margin-right: 2px;
+    padding: 15px 10px;
+    justify-content: center;
+    text-align: justify;
+    color: $color-gold;
+    word-wrap: break-word;
   }
 }
 
@@ -29,6 +44,21 @@
     height: 300px;
     margin: 5%;
     border-radius: 5px;
+    float: right;
+  }
+
+  h2 {
+    padding-top: 50px;
+  }
+
+  p {
+    height: fit-content !important ;
+    margin-right: 2px;
+    padding: 15px 10px;
+    justify-content: center;
+    text-align: justify;
+    color: $color-gold;
+    word-wrap: break-word;
   }
 }
 

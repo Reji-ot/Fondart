@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Edwardian";
-  src: url("../assets/fonts/ITCEDSCR.woff") format("woff");
+  src: url("./assets/fonts/ITCEDSCR.woff") format("woff");
 }
 @font-face {
   font-family: "Trajan";
-  src: url("../assets/fonts/TrajanPro-Regular.woff") format("woff");
+  src: url("./assets/fonts/TrajanPro-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "Zapfino";
-  src: url("../assets/fonts/ZapfinoExtraLT-One.woff") format("woff");
+  src: url("./assets/fonts/ZapfinoExtraLT-One.woff") format("woff");
 }
 @font-face {
   font-family: "Carentro";
-  src: url("../assets/fonts/Carentro.woff") format("woff");
+  src: url("./assets/fonts/Carentro.woff") format("woff");
 }
 /* Sass templates */
 /* global classes*/
@@ -31,7 +31,7 @@ h2 {
   text-align: center;
   position: relative;
   font-weight: 500;
-  text-shadow: 10px 10px 15px #888888;
+  text-shadow: 10px 10px 20px #888888;
 }
 
 h3 {
@@ -39,7 +39,7 @@ h3 {
   text-align: center;
   position: relative;
   font-weight: 500;
-  text-shadow: 10px 10px 15px #888888;
+  text-shadow: 10px 10px 20px #888888;
 }
 
 a {
@@ -58,6 +58,7 @@ hr {
   height: 50px;
   border-radius: 50%;
   padding: auto;
+  margin-right: 1.5rem;
 }
 
 .navbar {
@@ -70,6 +71,11 @@ hr {
   text-transform: inherit !important;
 }
 
+@media screen and (min-width: 768px) {
+  .nav-item {
+    margin: 0 0.6rem;
+  }
+}
 /* Typography Classes*/
 .font-Edwardian {
   font-family: "Edwardian", sans-serif;
@@ -199,6 +205,7 @@ hr {
   justify-content: center;
   text-align: justify;
   color: #9b7a16;
+  word-wrap: break-word;
 }
 
 .media .right .content a {
@@ -222,7 +229,7 @@ hr {
   padding: 0;
   margin: 10px auto;
   background-color: #fff;
-  box-shadow: 10px 10px 20px #888888;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .el-wrapper .info-inner {
@@ -358,13 +365,13 @@ hr {
 }
 
 .info-inner .p-name {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Trajan", sans-serif;
   font-size: 18px;
   color: white;
 }
 
 .info-inner .p-company {
-  font-family: "Lato", sans-serif;
+  font-family: "Edwardian", sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   color: pink;
@@ -400,7 +407,7 @@ hr {
   height: 100%;
   top: 0;
   left: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Carentro", sans-serif;
   font-weight: 700;
 }
 
@@ -457,7 +464,7 @@ hr {
 .cart .add-to-cart .txt {
   font-size: 12px;
   color: #9b7a16;
-  letter-spacing: 0.045em;
+  letter-spacing: 0.05rem;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -756,9 +763,13 @@ hr {
 }
 
 /*Story page*/
+#banner-story img {
+  width: 100vw;
+}
+
 #Story .container {
   position: absolute;
-  top: 120%;
+  top: 90%;
   left: 7%;
   z-index: 3;
   background: linear-gradient(to left, pink, white);
@@ -768,6 +779,19 @@ hr {
   height: 300px;
   margin: 5%;
   border-radius: 5px;
+  float: left;
+}
+#Story .container h2 {
+  margin-top: 3rem;
+}
+#Story .container p {
+  height: fit-content !important;
+  margin-right: 2px;
+  padding: 15px 10px;
+  justify-content: center;
+  text-align: justify;
+  color: #9b7a16;
+  word-wrap: break-word;
 }
 
 #Style .container {
@@ -780,13 +804,33 @@ hr {
   height: 300px;
   margin: 5%;
   border-radius: 5px;
+  float: right;
+}
+#Style .container h2 {
+  padding-top: 50px;
+}
+#Style .container p {
+  height: fit-content !important;
+  margin-right: 2px;
+  padding: 15px 10px;
+  justify-content: center;
+  text-align: justify;
+  color: #9b7a16;
+  word-wrap: break-word;
 }
 
 /*Story page*/
-/*   Special Price Section Template */
-#products .grid .grid-item {
-  margin-right: 1.2rem;
+/*   product page Template */
+#products .grid {
+  display: grid;
+  position: relative;
+  left: 10%;
+}
+#products .grid-item {
   margin-top: 1rem;
+  margin-right: 1.3rem;
+  box-shadow: 10px 10px 15px #888888;
+  border-radius: 5px;
 }
 #products .btn-outline-info {
   border: 1px solid #9b7a16 !important;

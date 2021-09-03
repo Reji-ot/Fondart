@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondart Bakehouse</title>
+
+     <!-- Bootstrap CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+ <!-- Owl carousel CDN-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <!-- Fontawesome CDN -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <!-- Custom CSS file -->
+ <link rel="stylesheet" href="style.css" type="text/css" />
+
+
+</head>
+<body>
+    
+     <!-- Start Header-->
+     <header id="header">
+        <!-- <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-rale font-size-20 text-black-50 m-0"></p>
+            <div class="font-rale font-size-14">
+                <a href="./login.html" class="px-3 border-right border-left text-dark">Login</a>
+                <a href="#" class="px-3 border-right text-dark">Wishlist</a>
+            </div>
+        </div> -->
+    
+
+    <!-- Primary Navigation -->
+        <nav class="navbar navbar-light fixed-top navbar-expand-md">
+        <div class="container-fluid">
+          <img src="./assets/logo/FAB_logo.png" alt="brand-logo" class='logo ms-2'/>
+          <a href="./index.html" class="navbar-brand navbar-left ms-3 font-Carentro mt-3"><h1>FondArt Bakehouse</h1></a>
+        
+          <!-- Toggler/collapsibe Button -->
+            <Button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </Button>
+          
+          <div class="collapse navbar-collapse navbar-toggleable-md m-auto" id="collapsibleNavbar">
+          <ul class="navbar-nav nav-pills nav-fill me-2 ms-auto font-Trajan">
+            <li class="nav-item">
+              <a  href="./index.html" class="nav-link font-size-20 color-gold">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="./story.html" class="nav-link font-size-20 color-gold">STORY</a>
+            </li>
+            <li class="nav-item">
+              <a href="./Shelf.html" class="nav-link font-size-20 color-gold">SHELF</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link font-size-20 color-gold" >CONTACT</a>
+            </li>
+            <li>
+                <form action="#" class="font-size-14 font-rale">
+                    <a href="./Shelf.html" class="py-2 rounded-pill color-pink-bg">
+                        <span class="font-size-18 px-1 text-dark"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-2 py-2 rounded-pill text-white bg-dark font-Trajan">Shop Now</span>
+                    </a>
+                </form>
+            </li>
+        </ul>
+                
+          </div>
+        </div>
+        
+        </nav>
+    <!-- !Primary Navigation -->    
+        </header>
+    <!-- !Start Header-->
+
+    <!-- Start Mainsite -->
+        <main>
+            <!-- Contact section -->
+
+            <section id="contact-us">
+                <hr>
+                <div class="container">
+                      <div class="section-title text-center">
+                                <h3 class="my-5 pt-5 font-Trajan font-size-40">CONTACT US</h3>
+                            </div>
+        
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form action="/" class="form">
+                                <div class="row my-3 form-group">
+                                    <div class="col-sm-6">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" />
+                                    </div>
+                                </div>
+                                <div class="row px-2 my-3 form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
+                                </div>
+                                <div class="row px-2 my-3 form-group">
+                                    <textarea class="form-control" name="message" placeholder="Type Message"></textarea>
+                                </div>
+                                <div class="row">
+                                    <button type="submit" class="btn color-gold-bg color-white">Send Message</button>
+                                </div>
+                                
+                            </form>
+                        </div>
+                        <hr class="my-5">
+                        <div class="col-lg-12">
+                            <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.562257850175!2d80.95404241488181!3d26.853871883152944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd6ff6b5513d%3A0x109a29d586e0745a!2sFondArt%20Bakehouse!5e0!3m2!1sen!2sin!4v1622829430528!5m2!1sen!2sin" width="100%" height="380px" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- !contact section -->
+            <hr class="my-5">
+            <!-- Outlet section -->
+            <section class="Outlets"> 
+                               <div class="container-fluid">
+                    <div class="media row">
+                    <div class="col-md-9 right">
+                            <div class="content" >
+                            <h3 class="text-wrap"><span class='font-Zapfino font-size-80'>Find us </span><span class='font-Trajan font-size-40' >HERE ALSO</span></h3>
+                                <p class='font-Tnr font-size-18'>Fondart Bakehouse is spreading sweetness to more places. We are on an expanding our services to newer locations. The FAB kiosk at the Lucknow Golf course being one of our first expansion steps.
+                                    Fondart Bakehouse started with the idea is to offer Quality, Consistency and Variety of baking products to city of Lucknow. Seeing the demand and ever increasing popularity of our bakes and products, we intend to be available and serve the entire city with the goodness and freshness of our products. We will soon be seen in more locations. <br> <br>
+                                    
+                                The Fondart Bakehouse kiosk at Golf course is a mini set up which will be controlled from the flagship store and will continue to be macro managed form our main kitchen. While we are looking at more such outlets within Lucknow, we are looking at expanding beyond Lucknow in the near future.</p>
+                                
+                            </div>
+                    </div>
+                    <div class="col-md-3 left">
+                            <img src="./assets/images/Store.jpg" alt="Outlet" />
+                    </div>
+                    </div>
+            </div> 
+           
+            </section>
+            <!-- !Outlet section -->  
+
+
+        </main>
+    <!-- !Start Mainsite -->
+
+    <hr class="my-5">
+
+    <!-- Footer section -->
+    <footer class="container-fluid footer">
+        <div class="row justify-content-evenly">
+            <div class="col-md-4 align-self-start">
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex justify-content-center" >
+                        <i class="fa fa-map-marker fa-2x"></i>
+                    </div>
+                    <div class="row text">
+                        <p><strong style="color: #b8860b;" >Address:</strong>
+                        </p>
+                    <!-- </div>
+                    <div class="row"> -->
+                        <p><span style= "color: grey;">Jopling road, near shalimar grand appartment, Lucknow, Uttar Pradesh 226010 </span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 align-self-start">
+                <div class="dbox w-100 text-center ">
+                    <div class="icon d-flex  justify-content-center">
+                        <i class="fa fa-phone fa-2x"></i>
+                    </div>
+                    <div class="row ">
+                        <p><strong style= "color: #b8860b;" >Phone:</strong></p>
+                    <!-- </div>
+                    <div class="row"> -->
+                        <p><a class="text-decoration-none" href="#tel://00918076468576" style= "color: grey;" }}>+ 91 80764 68576 </a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 align-self-start">
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fa fa-paper-plane fa-2x"></i>
+                    </div>
+                    <div class="row text">
+                        <p><strong style="color: #b8860b;">Email:</strong></p>
+                    <!-- </div>
+                    <div class="row"> -->
+                        <p><a href="mailto:info@fondartbakehouse.com" style="color: grey;">info@fondartbakehouse.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 align-self-start">
+                <div class="dbox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <i class="fa fa-globe fa-2x"></i>
+                    </div>
+                    <div class="row text">
+                        <p><strong style="color: #b8860b;">Follow us on:</strong></p>
+                    <!-- </div>
+                    <div class="row"> -->
+                        <p>
+                            <a href="https://www.facebook.com/fondartbakehouse/"><span style="color: grey;" ><i class="fab fa-facebook-square fa-2x mx-2" aria-hidden="true"></i></span></a>
+                            <a href="https://www.instagram.com/fondartbakehouse/"><span style="color: grey;"><i class="fab fa-instagram-square fa-2x mx-2" aria-hidden="true"></i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-12 ">
+                <p class="footer-credit">
+                    <a href="/" class="text-dark text-decoration-none" >© 2021 All right reserved:</a>
+                    <span ><a href="/" class="text-dark text-decoration-none"> FondArt BakeHouse</a></span>
+                </p>
+            </div>
+        </div>
+</footer>
+<!-- !Footer section -->
+
+
+    <!-- Bootstrap bundle script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel JS file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Jquery isotope -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom Js file -->
+    <script src="index.js"></script>
+</body>
+</html>

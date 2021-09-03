@@ -1,0 +1,43 @@
+/* global classes*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+h2 {
+  color: $color-gold;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+  text-shadow: 10px 10px 20px #888888;
+}
+
+h3 {
+  color: $color-gold;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+  text-shadow: 10px 10px 20px #888888;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  color: #9b7a16;
+  width: 100%;
+  border: 1px solid;
+}
+
+// button,
+// button:focus {
+//   outline: none !important;
+//   box-shadow: none !important;
+// }

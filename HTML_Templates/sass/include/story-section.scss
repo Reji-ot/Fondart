@@ -1,0 +1,40 @@
+/* story section*/
+#story-section {
+  width: 100%;
+  height: 100%;
+}
+.media {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.media .left img {
+  width: 100%;
+  height: 50vh;
+  box-shadow: 5px 5px 10px $color-grey;
+}
+
+.media .right {
+  background-image: linear-gradient(to right, pink, white) !important;
+  box-shadow: 10px 10px 20px $color-grey;
+}
+
+.media .right .content {
+  height: fit-content !important ;
+  margin-right: 2px;
+  padding: 15px 10px;
+  justify-content: center;
+  text-align: justify;
+  color: $color-gold;
+  word-wrap: break-word;
+  text-transform: none;
+}
+
+.media .right .content p {
+  text-transform: initial !important ;
+}
+
+.media .right .content a {
+  background-color: $color-white;
+  color: $color-gold;
+}

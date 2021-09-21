@@ -1,4 +1,5 @@
-            <!-- Testimonials -->
+<hr class="my-5">
+<!-- Testimonials -->
             <section class="container" id="testimonial">
                 <div class="section-title">
                     <h3 class="font-Trajan font-size-40">TESTIMONIALS</h3>

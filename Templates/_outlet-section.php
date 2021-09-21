@@ -19,4 +19,4 @@
                 </div> 
             </section>
             <!-- !Outlet section -->
-            <hr class="my-5">
+            

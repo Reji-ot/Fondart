@@ -9,7 +9,7 @@
         
                     <div class="row">
                         <div class="col-lg-12">
-                            <form action="/" class="form">
+                            <form action="./mail.php" method="POST" class="form">
                                 <div class="row my-3 form-group">
                                     <div class="col-sm-6 mb-3 mb-md-0">
                                         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
@@ -22,7 +22,7 @@
                                     <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
                                 </div>
                                 <div class="row px-2 my-3 form-group">
-                                    <textarea class="form-control" name="message" placeholder="Type Message"></textarea>
+                                    <textarea class="form-control" name="message" placeholder="Type Message" rows="10"></textarea>
                                 </div>
                                 <div class="row">
                                     <button type="submit" class="btn color-gold-bg color-white">Send Message</button>

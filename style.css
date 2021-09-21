@@ -835,15 +835,17 @@ hr {
 /*   product page Template */
 #products .grid {
   display: grid;
-  position: relative;
-  justify-content: center;
-  left: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 #products .grid-item {
+  align-self: center;
+  justify-self: center;
   margin-top: 1rem;
-  margin-right: 1.3rem;
+  margin-right: 1.2rem;
   box-shadow: 10px 10px 15px #888888;
   border-radius: 5px;
+  text-align: center;
 }
 #products .btn {
   border: 1px solid #9b7a16 !important;
@@ -862,9 +864,9 @@ hr {
   color: red;
 }
 #products img {
-  width: 180px;
+  width: 250px;
   /* You can set the dimensions to whatever you want */
-  height: 180px;
+  height: 250px;
   object-fit: cover;
 }
 

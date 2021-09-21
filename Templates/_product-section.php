@@ -9,7 +9,7 @@
                                 <div class="row">
                                 <div class="el-wrapper">
                                 <div class="box-up">
-                                    <img class="card-img-top" src="./assets/images/Products/Belgian_chocolate_truffle_pastry.jpg" alt="product_image" width="300px" height="300px"/>
+                                    <img class="card-img-top" src="./assets/images/Products/Dark_Chocolate_Truffle_Pastry.jpg" alt="product_image" width="300px" height="300px"/>
                                     <div class="img-info">
                                     <div class="info-inner">
                                         <span class="p-name font-Trajan font-size-30">Truffles</span>
@@ -38,7 +38,7 @@
                             <div class="row">
                             <div class="el-wrapper">
                             <div class="box-up">
-                                <img class="card-img-top" src="./assets/images/Products/Puddings.jpeg" alt="Puddings" width="300px" height="300px"/>
+                                <img class="card-img-top" src="./assets/images/Products/Tiramisu_Pudding_Jar.jpg" alt="Puddings" width="300px" height="300px"/>
                                 <div class="img-info">
                                 <div class="info-inner">
                                     <span class="p-name">Puddings</span>
@@ -67,7 +67,7 @@
                         <div class="row">
                         <div class="el-wrapper">
                         <div class="box-up">
-                            <img class="card-img-top" src="./assets/images/Products/Red_velvet_cake.jpg" alt="product_image" width="300px" height="300px"/>
+                            <img class="card-img-top" src="./assets/images/Products/Red_Velvet_Cake.jpg" alt="product_image" width="300px" height="300px"/>
                             <div class="img-info">
                             <div class="info-inner">
                                 <span class="p-name">Cakes</span>
@@ -97,7 +97,7 @@
                                 <div class="row">
                                 <div class="el-wrapper">
                                 <div class="box-up">
-                                    <img class="card-img-top" src="./assets/images/Products/Almond_croissant.jpg" alt="product_image" width="300px" height="300px"/>
+                                    <img class="card-img-top" src="./assets/images/Products/Butter_croissant.jpg" alt="product_image" width="300px" height="300px"/>
                                     <div class="img-info">
                                     <div class="info-inner">
                                         <span class="p-name">Croissants</span>
@@ -126,7 +126,7 @@
                             <div class="row">
                             <div class="el-wrapper">
                             <div class="box-up">
-                                <img class="card-img-top" src="./assets/images/Products/Lemon_citrus_cupcake.jpg" alt="product_image" width="300px" height="300px"/>
+                                <img class="card-img-top" src="./assets/images/Products/Blueberry_Cupcake.jpg" alt="product_image" width="300px" height="300px"/>
                                 <div class="img-info">
                                 <div class="info-inner">
                                     <span class="p-name">Cupcakes</span>
@@ -156,7 +156,7 @@
                             <div class="row">
                             <div class="el-wrapper">
                             <div class="box-up">
-                                <img class="card-img-top" src="./assets/images/Products/Puffs.jpg" alt="product_image" width="300px" height="300px"/>
+                                <img class="card-img-top" src="./assets/images/Products/Savouries.jpg" alt="product_image" width="300px" height="300px"/>
                                 <div class="img-info">
                                 <div class="info-inner">
                                     <span class="p-name">Savouries</span>
@@ -186,7 +186,7 @@
                         <div class="row">
                         <div class="el-wrapper">
                         <div class="box-up">
-                            <img class="card-img-top" src="./assets/images/Products/Opera_pastry.jpg" alt="product_image" width="300px" height="300px"/>
+                            <img class="card-img-top" src="./assets/images/Products/Peach_&_Pineapple_Pastry_1.jpg" alt="product_image" width="300px" height="300px"/>
                             <div class="img-info">
                             <div class="info-inner">
                                 <span class="p-name">Pastries</span>
@@ -210,7 +210,7 @@
                 </div>
                 </div>
                                 </div>
-                                <small class="font-Edwardian">*Product images displayed are only for illustration purpose</small>
+                                
                             </div>
 
             

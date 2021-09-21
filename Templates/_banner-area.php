@@ -3,6 +3,12 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item">
                         <video width="100%" height="56.25%" muted loop autoplay>
+                            <source src="./assets/images/vBanner_4.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="item">
+                        <video width="100%" height="56.25%" muted loop autoplay>
                             <source src="./assets/images/vBanner_3.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                         </video>

@@ -1,27 +1,4 @@
-<?php
 
-// echo "<pre>";
-// print_r($_POST);
-// echo "<pre>";
-
-$userName = $_POST['name'];
-$userEmail = $_POST['email'];
-$messageSubject = $_POST['subject'];
-$message = $_POST['message'];
-
-
-$to = "reji.ot@gmail.com";
-$body = "";
-
-$body .= "From: ".$userName. "\r\n";
-$body .= "Email: ".$userEmail."\r\n";
-$body .= "Message: ".$message. "\r\n";
-
-
-mail($to, $messageSubject, $body);
-
-
-?>
             
             
             <!-- Contact section -->
@@ -33,7 +10,7 @@ mail($to, $messageSubject, $body);
         
                     <div class="row">
                         <div class="col-lg-7">
-                            <form action="./index.php" method="POST" class="my-3 form">
+                            <form action="./mail.php" method="POST" class="my-3 form">
                                 <div class="row my-3">
                                     <div class="col-sm-6 mb-3 mb-md-0">
                                         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
@@ -46,7 +23,7 @@ mail($to, $messageSubject, $body);
                                     <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
                                 </div>
                                 <div class="row px-2 my-3">
-                                    <textarea class="form-control" name="message" placeholder="Type Message"></textarea>
+                                    <textarea class="form-control" name="message" placeholder="Type Message" rows="8"></textarea>
                                 </div>
                                 <div class="d-grid">
                                     <button type="submit" class="btn color-gold-bg color-white">Send Message</button>
